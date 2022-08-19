@@ -3,7 +3,6 @@ import React from "react";
 
 
 export default function Input() {
-    //let [memeImage, setMemeImage] = React.useState('http://i.imgflip.com/1bij.jpg')
 
     const [meme, setMeme] = React.useState({
         topText: '',
