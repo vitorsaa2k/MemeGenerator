@@ -1,5 +1,4 @@
 {
-  "homepage": "http://vitorsaa2k.github.io/MemeGenerator",
   "name": "project",
   "dependencies": {
     "react": "17.0.2",
@@ -13,8 +12,6 @@
     "babel-preset-react": "*"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "webpack",
     "watch": "webpack -w"
   }
